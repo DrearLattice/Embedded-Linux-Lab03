@@ -1,0 +1,25 @@
+# Compiled binaries
+apps/buggy_app
+apps/buggy_app_host
+apps/buggy_app_static
+apps/leaky_app
+apps/leaky_app_arm
+apps/leaky_app_arm_static
+apps/leaky_app_fixed
+apps/leaky_app_memory
+apps/perf_target
+apps/perf_target_arm
+
+# Generated filesystem
+rootfs/
+output/
+
+# Profiling binary data
+*.data
+*.data.old
+
+# Temporary files
+*.o
+*.swp
+*.tmp
+__pycache__/
